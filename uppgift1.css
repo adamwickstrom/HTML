@@ -1,4 +1,22 @@
 body{
 	color:blue;
-	background-color:yellow;
+	background-color:white;
+}
+
+h1{
+	font-style:  Arial;
+	color: black;
+	font-size: 22px;
+
+	
+}
+
+.p1	{ 
+	border-style: solid;
+	border-width: 1px; 
+	
+
+.p2 {
+	background-color: Red;	
+	color: pink; 
 }
