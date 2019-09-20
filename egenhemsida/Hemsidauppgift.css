@@ -1,53 +1,95 @@
+  
 body{
-	background-image: url(https://blog.wheelsbywovka.com/wp-content/uploads/2017/05/enduro-tallinn-estonia-gp-by-wheelsbywovka-19.jpg);
+	background-image: url(https://blog.wheelsbywovka.com/wp-content/uploads/2017/05/enduro-tallinn-estonia-gp-by-wheelsbywovka-19.jpg); /* lägger en bild som bakrund*/
 
 }
 
 
 
-.rubrik{
-	float: left;
-	font-size: 50px;
-	color: #ff3300;
+.rubrik{ /**/
+	float: left; /*sätter position*/
+	font-size: 50px;/*gör textstorleken till 50px*/
+	color: #ff3300;/*sätter bestämd färg på rubriken*/
 }
 
-.container {
-	width: 80%;
-	margin: 0 auto;
+.container {/*gör en container*/
+	width: 80%;/*gör bredden till 80%*/
+	margin: 0 auto;/*sätter marginal till 0*/
 }
 
 	
 header { 
-	background: #FFEBCD;
+	background: #FFEBCD;/*bestämmer färgen*/
 }
 
-header::after {
-	content: " ";
-	display: table;
-	clear: both;
-} 	
-
-nav {
-	float: right;
+header::after {/*gör att min bakrundsfärg på min header inte försvinner */
 	
+	content: " ";/*ändrar på länken efter rubriken*/
+	display: table;/*visar tabellen*/
+	clear: both;/*rensar något*/
 }
+
+ul { /**/
 	
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+	margin:  0;/*ändrar marginal*/
+	padding: 0;/*gör en ram och centrerar texten*/
+	list-style: none;/*vilken typ av stil listan ska ha*/
 	font-size: 0;
 }
 
 nav li {
-	display: inline-block;
-	margin-left: 60px;
-	padding-top: 12px;
-	font-size: 1rem;
+	display: inline-block; 
+	margin-left: 60px;/*ändrar marginal på vänstersidan*/
+	padding-top: 12px;/*ändrar paddding till ovansidan*/
+	font-size: 1rem;/*ändrar storleken*/
+	text-align: center;/*centrerar texten*/
 }
 
-nav a {
-	color: #ff3300;
-	text-transform: uppercase;
+a {
+	color: #ff3300;/*bestämmer färg på a taggarna*/
+	text-transform: uppercase; /*gör om texten till versaler*/
 	
+}
+
+table,th,td{
+		border: 1px solid black; /*gör ramen till 1 px och helsvart*/
+		border-collapse: collapse; /*lägger ihop alla linjer*/
+		
+}
+
+table {
+	width: 30%; /*gör bredden till 30%*/
+}
+
+tr:nth-child(2), tr:nth-child(4) {/*sätter bakrundsfärg i tabellen*/
+	background: brown;/*gör bakrundsfärg brun*/
+}	
+
+tr:nth-child(3), tr:nth-child(5) {
+	background: blue;
+}
+
+td:nth-child(2), td:nth-child(3) {
+	text-align: center;/*centrerar texten i vala kolumner*/
+}
+
+td:nth-child(4), th:nth-child(4){
+	text-align: right;/*gör texten högerjusteraf i valda kolumner*/
+}
+
+th:nth-child(1) {
+	text-align: left; /*gör all text till vänsterjusterad*/
+}
+
+
+
+caption {
+	font-size: 20px;
+	caption-side: bottom; /*bestämmer var rubriken ska ligga*/
+	text-align: center;
+	font-family: Arial; /*ändrar textstil*/
+}
+
+.link {
+	text-align: center; /*centrerar texten*/
 }
