@@ -1,33 +1,9 @@
 body{
 	margin: 0;
 	padding: 0;
-}
+	}
 
-table{
+img{
 	height: 100%;
 	width: 100%;
-	border-collapse: collapse;
-}
-
-.röd{
-	background-color: red;
-}
-
-.blå{
-	background-color: blue;
-}
-
-.grön{
-	background-color: green;
-}
-
-.gul{
-	background-color: yellow;
-}
-
-h1{
-	text-align: center;
-	font-size: 10vw;
-	
-
 }
