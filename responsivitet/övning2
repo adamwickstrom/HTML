@@ -1,0 +1,26 @@
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+.rectangle {
+	background: cornflowerblue;
+	height: 50vh;
+}
+
+.circle{
+	background: yellow;
+	border-radius: 50%;
+	height: 100%;
+	width: 50vh;
+	margin: 0 auto;
+	position: relative;
+	
+	
+	
+	
+}
