@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang=sv>
+<head>
+      <meta charset="utf-8">
+      <title>uppgift2</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+			
+	<table>
+		<nav>
+			<ul>
+				<div class="dropdown">
+					<button class="dropbtn"> Dropdown</button>
+					<div class ="dropdown-content">
+						<a href="#">Länk1</a>
+						<a href="#">Länk2</a>
+						<a href="#">Länk3</a>
+					</div>				
+				</div>
+				
+				
+			</ul>
+		</nav>
+	</table>
+	
+	
+			
+	<form action="/action_page.php">
+		<label for="fname">Namn:</label><br>
+		<input type="text" id="fname" name="fname" value=""><br>
+		<label for="lname">Efternamn:</label><br>
+		<input type="text" id="lname" name="lname" value=""><br>
+		<label for="opinion"> Poltisk Övertygelse:</label><br>
+		<input type="text" id="opinion" name="opinion" value="""><br><br>	
+
+		<label for="radio">Kön:</label><br>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Man</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Kvinna</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Annat</label><br><br>
+		<label for="checkbox1">Hur fick du reda på denna sidan?</label><br>
+		<input type="checkbox" id="checkbox1" name="checkbox1" value="">
+		<label for="vehicle1"> En vän</label><br>
+		<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+		<label for="vehicle2"> Annat</label><br><br>
+			
+		<label for="comment">Några frågor?</label><br>
+		<textarea rows="4" cols="50" name="comment" form="usrform"></textarea><br>
+		
+		<input type="reset" value="Reset">
+		<input type="submit" value="Submit">
+  
+	</form> 
+		
+
+
+</body>
+</html>
