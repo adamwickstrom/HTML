@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang=sv>
+<head>
+      <meta charset="utf-8">
+      <title>uppgift2</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+			
+
+	
+			
+	<form action="/action_page.php">
+		<label for="fname">Namn:</label><br>
+		<input type="text" id="fname" name="fname" value=""><br>
+		
+		<label for="lname">Efternamn:</label><br>
+		<input type="text" id="lname" name="lname" value=""><br>
+		
+		<label for="opinion"> Poltisk Övertygelse:</label><br>
+		
+		<input list="browsers" name="browser">
+			<datalist id="browsers">
+				<option value="Sosse">
+				<option value="Liberal">
+				<option value="Borgarsvin">
+				<option value="Nazist">
+				<option value="Kommunist">
+				<option value="Miljöaktivist">
+				<option value="Nationalist">
+				<option value="Feminist">
+			</datalist><br><br>
+
+		<label for="radio">Kön:</label><br>
+		<input type="radio" id="male" name="gender" value="male">
+		
+		<label for="male">Man</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		
+		<label for="female">Kvinna</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Annat</label><br><br>
+		
+		<label for="checkbox1">Hur fick du reda på denna sidan?</label><br>
+		<input type="checkbox" id="checkbox1" name="checkbox1" value="">
+		<label for="checkbox2"> En vän</label><br>
+		<input type="checkbox" id="checkbox2" name="checkbox2" value="">
+		<label for="checkbox2"> Annat</label><br><br>
+			
+		<label for="comment">Några frågor?</label><br>
+		<textarea rows="4" cols="50" name="comment" form="usrform"></textarea><br>
+		
+		<input type="reset" value="Reset">
+		
+		<a href="enkelsida.html">
+			<input type="button" value="Submit" onclick="enkelhemsida.html">
+		</a>
+  
+	</form> 
+		
+
+
+</body>
+</html>
